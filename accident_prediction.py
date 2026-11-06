@@ -1,18 +1,3 @@
-"""
-================================================================================
-PIPELINE COMPLET ET CORRIGÉ — Prédiction d'accidents (driving simulator)
-================================================================================
-Objectif : répondre à TOUTES les exigences du prof :
-  1. Firefly non-plate (log-uniform init + bruit décroissant + trajectoire)
-  2. Seuil tuné pour LES 3 MODÈLES (comparaison équitable)
-  3. Bootstrap CI (limite du test set = 20 accidents)
-  4. Justification métier de la faible précision (coût asymétrique)
-  5. Cross-validation 5-fold (plus robuste que 2-fold)
-  6. Figures publiables (convergence + trajectoire + ROC + métriques + matrice)
-  7. Résultats et conclusions affichés DYNAMIQUEMENT dans le terminal
-================================================================================
-"""
-
 import os
 import time
 import warnings
